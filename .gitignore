@@ -1,0 +1,34 @@
+# Cargo build output
+/target/
+
+# Cargo.lock is intentionally tracked: this crate is a binary.
+
+# rustfmt backup files
+**/*.rs.bk
+
+# MSVC debug symbols
+*.pdb
+
+# Profiling / coverage artifacts
+*.profraw
+*.profdata
+/coverage/
+/tarpaulin-report.html
+cargo-flamegraph.svg
+flamegraph.svg
+perf.data*
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
